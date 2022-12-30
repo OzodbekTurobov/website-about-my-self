@@ -4,70 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>website about myself</title>
-    <link rel="stylesheet" href="">
+    <title>Portfolio</title>
+    <style>
+        #portfolio-photo{
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+        }
+        header{
+            text-align: center;
+        }
+        .experience__school, .education-institution{
+            color: green;
+        }
+    </style>
 </head>
 <body>
-    <img src="./ozod.jpg"  alt="Ozodbekni sayti" 
-    style="border-radius: 100%; width: 280px; height: 285px; margin-left: 600px; ">
-    <h1 style="margin-left: 620px;">Ozodbek Turobov</h1>
-    <a style="margin-left: 650px;" href="https://susysacademy.uz/"> https://susysacademy.uz/TurobovOzodbek</a>
-    <h3 style="margin-left: 565px; margin-top: -20px;">LinkedIn:</h3>
-    <h3 style="margin-left: 595px; ">Email:</h3>
-    <a style="margin-left: 650px; color: black; text-decoration: none; margin-top: -20px;" href="ozodturobovcipher@gmail.com">ozodturobovcipher@gmail.com</a>
+   <header>
+    <img src="./ozod.jpg" alt="Portfolio photo" id="portfolio-photo">
+    <h2>Turobov Ozodbek</h2>
+    <p>
+        <b>LinkedIn: </b>
+        <a href="https://susysacademy.uz/" target="_blank">
+            https://susysacademy.uz/
+        </a>
+    </p>
+    <p>
+        <b>Email:</b> ozodturobov@gmail.com
+    </p>
+    </header>
     <hr>
-    <h1>Experience</h1>
-    <h2 style="color: green;">Cloud Linux (I started programming on March 20, 2022)</h2>
-    <h3>Software Engineer(Remotely)</h3>
-    <h4>Being a software engineer mainly as a HTML/CSS developer, I am involved in web-based applications of the company</h4>
-    <p>Projects:</p>
-    <ul>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, suscipit, corporis soluta fuga accusamus explicabo iste aliquid est repellendus, nesciunt molestiae. Aliquid eos cupiditate quisquam iste minus, accusantium sint adipisci?</li>
-        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam reiciendis quisquam, minima sapiente neque distinctio enim. Consectetur cupiditate deserunt doloribus officiis voluptatibus omnis quas, itaque saepe, explicabo alias maxime vel.</li>
-        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero architecto soluta ex recusandae suscipit et nam aliquid non quaerat amet esse vero, tenetur beatae exercitationem ullam excepturi laudantium animi voluptatum?</li>
-    </ul>
-    <h2 style="color: green;">Cloud Linux (I started programming on March 20, 2022)</h2>
-    <h3>Front end developer</h3>
-    <h4>Being a front-end developer,Iam building the user interface of the  DLP system.</h4>
-    <p>Projects:</p>
-    <ul>
-        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque distinctio alias quo voluptate, error atque neque laborum nemo tenetur, natus autem eveniet ratione incidunt eaque sit perspiciatis cupiditate cum odit?</li>
-    </ul>
+    <section>
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3 class="experience__school">
+                I started going to school in (september 2016)
+            </h3>
+            <p>
+               <b>
+                Soft Engineer (Remotly)
+               </b> 
+            </p>
+            <p>
+                <i>
+                    Being a software engineer mainly as a HTML/CSS developer, I am involved in web-based applications of the company
+                </i>
+            </p>
+            <p>
+                Projects:
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, corporis soluta fuga accusamus  iste aliquid est repellendus, nesciunt molestiae. Aliquid eos cupiditate quisquam iste minus, accusantium?
+                    </li>
+                    <li>
+                        Lorem ipsum sit amet consectetu elit. Dicta, suscipit, corporis soluta fuga accusamus explicabo iste aliquid est repellendus, nesciunt molestiae. Aliquid cupiditate quisquam iste minus, accusantium sint
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, suscipit, corporis soluta fuga accusamus explicabo iste aliquid est, nesciunt molestiae. Aliquid eos cupiditate minus, accusantium  adipisci?
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <div class="experience">
+            <h3 class="experience__school">
+                I study at school, I have not worked anywhere (January 2023)
+            </h3>
+            <p>
+               <b>
+                Fronted and Developer
+               </b> 
+            </p>
+            <p>
+                <i>
+                    Being a software engineer mainly as a HTML/CSS developer, I am involved in web-based applications of the company
+                </i>
+            </p>
+            <p>
+                Projects:
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, corporis soluta fuga accusamus  iste aliquid est repellendus, nesciunt molestiae. Aliquid eos cupiditate quisquam iste minus, accusantium?
+                    </li>
+                </ul>
+            </p>
+            
+        </div>
+    </section>
     <hr>
-    <h1>Education</h1>
-    <h1 style="color: green;">BSc in Computer Science (Sep 2015 __ May 2019)</h1>
-    <h2>INHA University in Navai</h2>
-    <h4>Cumulative GPA:4.43 out of 4.50</h4>
-    <h4>Honours</h4>
-    <ol>
-        <li>Recipient of Inha President`s Award</li>
-        <li>Member of Dean`s List</li>
-    </ol>
-    <h1 style="color: green;">High School in Computer Technologies (Sep 2012 __ May 2015)</h1>
-    <h4>Computer Technologies Academic Lyeeum</h4>
-    <h5>Gradvated with the Honor Diploma</h5>
-    <hr>
-    <h1>Skills</h1>
-    <h4 style="margin-left: 200px;">Technical skills</h4>  
-    <h4 style="margin-left: 700px; margin-top: -40px;">Personal skills</h4>
-    <h4 style="margin-left: 1200px; margin-top: -40px;">Technical skills</h4>
-    <ul>
-        <li>Java (EE,Android)</li>
-        <li>HTML 5 CSS3</li>
-        <li>Python</li>
-    </ul>
-    <ul style="position: absolute; margin-left: 520px; margin-top: -70px;">
-        <li>Java (EE,Android)</li>
-        <li>HTML 5 CSS3</li>
-        <li>Python</li>
-    </ul>
-    <ul style="position: absolute; margin-left: 1020px; margin-top: -70px;">
-        <li>Java (EE,Android)</li>
-        <li>HTML 5 CSS3</li>
-        <li>Python</li>
-    </ul>
-    <hr>
-    <a href="#Contact me">Contact me</a>
-    
+    <section>
+        <h2>Education</h2>
+        <div class="education">
+            <h3 class="education-institution">BSc in Computer Science (Sep 2015-May 2019)</h3>
+            <p>
+                <b>INHA Univesity in Tashkent</b>
+            </p>
+            <p>
+                <i>Cumulative GPA 4.43 out of 4.50</i>
+            </p>
+            <p>
+                Honors
+                <ol>
+                    <li>
+                        Recipient of Inha President`s Award
+                    </li>
+                    <li>
+                        Menber of Dean`s List
+                    </li>
+                </ol>
+            </p>
+        </div>
+        <div class="education">
+            <h3 class="education-institution">BSc in Computer Science (Sep 2015-May 2019)</h3>
+            <p>
+                <b>Computer Technologies</b>
+            </p>
+            <p>
+                <i>Cumulative GPA 4.43 out of 4.50</i>
+            </p>
+           
+        </div>
+    </section>
 </body>
 </html>
